@@ -1,0 +1,921 @@
+{
+  "Title": "24/9- 30/9",
+  "FirstDayOfCurrentPeriod": "24-09-2012",
+  "FirstDayOfNextPeriod": "01-10-2012",
+  "FirstDayOfPreviousPeriod": "17-09-2012",
+  "UserLockedDate": "29-09-2012",
+  "Projects": [
+    {
+      "Id": 93,
+      "ProjectName": "P1343 Interne systemer",
+      "Accounts": [
+        {
+          "Id": 326,
+          "AccountNumber": "NCUSC18",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 324,
+              "Name": "Netcompany A/S - T/R - System",
+              "Description": "Netcompany A/S - T/R - System",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 277,
+      "ProjectName": "P1527 DSA - A-kasse CRM Analyse",
+      "Accounts": [
+        {
+          "Id": 64,
+          "AccountNumber": "DSA0001",
+          "CustomerName": "DSA - Danske Sundhedsorganisationers Arbejdsløshedskasse",
+          "Activities": [
+            {
+              "Id": 62,
+              "Name": "DSA - FACIT",
+              "Description": "DSA - FACIT",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 286,
+      "ProjectName": "P1536 AMC Team A",
+      "Accounts": [
+        {
+          "Id": 665,
+          "AccountNumber": "RPL0001",
+          "CustomerName": "Rigspolitiet",
+          "Activities": [
+            {
+              "Id": 663,
+              "Name": "Rigspolitiet - Anmeldelsesmodul",
+              "Description": "Rigspolitiet - Anmeldelsesmodul",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 364,
+      "ProjectName": "P-2 Ikke-bemandet projekt",
+      "Accounts": [
+        {
+          "Id": 450,
+          "AccountNumber": "NCUKU18",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 448,
+              "Name": "Community - Front-end",
+              "Description": "Community - Front-end",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "0,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        },
+        {
+          "Id": 475,
+          "AccountNumber": "NCUSC08",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 473,
+              "Name": "Netcompany - Interne systemer - NC hjemmeside",
+              "Description": "Netcompany - Interne systemer - NC hjemmeside",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 430,
+      "ProjectName": "P1678 HK CRM",
+      "Accounts": [
+        {
+          "Id": 637,
+          "AccountNumber": "HKD0007",
+          "CustomerName": "HK",
+          "Activities": [
+            {
+              "Id": 635,
+              "Name": "HK - CRM medlemsløsning",
+              "Description": "HK - CRM medlemsløsning",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 431,
+      "ProjectName": "P1679 ihi CRM hovedprojekt",
+      "Accounts": [
+        {
+          "Id": 98,
+          "AccountNumber": "IHI0001",
+          "CustomerName": "ihi Bupa",
+          "Activities": [
+            {
+              "Id": 96,
+              "Name": "IHI Bupa - Claim Management",
+              "Description": "IHI Bupa - Claim Management",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 457,
+      "ProjectName": "P1705 Nye websites",
+      "Accounts": [
+        {
+          "Id": 956,
+          "AccountNumber": "IDE0002",
+          "CustomerName": "IDdesign",
+          "Activities": [
+            {
+              "Id": 3068,
+              "Name": "IDE0002",
+              "Description": "IDdesign - nyt CMS",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "8,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "12,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "9,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "8,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "8,00",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 300
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 517,
+      "ProjectName": "P1765 Sygdom og fravær (mellemregning)",
+      "Accounts": [
+        {
+          "Id": 377,
+          "AccountNumber": "NCUFR03",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 375,
+              "Name": "Sygemelding",
+              "Description": "Sygemelding",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        },
+        {
+          "Id": 421,
+          "AccountNumber": "NCUFR04",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 419,
+              "Name": "Sygt barn",
+              "Description": "Sygt barn",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 518,
+      "ProjectName": "P1766 Ferie (mellemregning)",
+      "Accounts": [
+        {
+          "Id": 2,
+          "AccountNumber": "NCUFR13",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 2,
+              "Name": "Ferie",
+              "Description": "Registrering af ferie",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 521,
+      "ProjectName": "P1769 Klubber (mellemregning)",
+      "Accounts": [
+        {
+          "Id": 459,
+          "AccountNumber": "NCUPK03",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 457,
+              "Name": "Klubber - Executers",
+              "Description": "Klubber - Executers",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 522,
+      "ProjectName": "P1770 Interne møder (mellemregning)",
+      "Accounts": [
+        {
+          "Id": 440,
+          "AccountNumber": "NCUKU08",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 438,
+              "Name": "Interne møder - NC Updates",
+              "Description": "Interne møder - NC Updates",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 523,
+      "ProjectName": "P1771 Community (mellemregning)",
+      "Accounts": [
+        {
+          "Id": 794,
+          "AccountNumber": "NCUKU25",
+          "CustomerName": "Netcompany",
+          "Activities": [
+            {
+              "Id": 773,
+              "Name": "Mobile Community",
+              "Description": "",
+              "ParentId": null,
+              "BeforeId": null,
+              "IsFavorite": true,
+              "Dates": [
+                {
+                  "Date": "24-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "25-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "26-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "27-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "28-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "29-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                },
+                {
+                  "Date": "30-09-2012",
+                  "Hours": "",
+                  "Locked": true,
+                  "HighestRegistrationStatus": 0
+                }
+              ],
+              "Activities": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

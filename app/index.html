@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Aika</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="styles/main.css"/>
+    </head>
+    <body ng-app="aikaApp">
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        
+        <!--[if lt IE 9]>
+            <script src="scripts/vendor/es5-shim.min.js"></script>
+            <script src="scripts/vendor/json3.min.js"></script>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <h1>Aika</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span8">
+              <div ng-view></div>
+            </div>
+          </div>
+        </div>
+
+        <script src="scripts/vendor/angular.js"></script>
+        <script src="scripts/vendor/angular-resource.js"></script>
+
+        <!-- build:js scripts/businesslogic.js -->
+        <script src="scripts/businesslogic/lib.js"></script>
+        <script src="scripts/businesslogic/Period.js"></script>
+        <script src="scripts/businesslogic/Registration.js"></script>
+        <script src="scripts/businesslogic/Timeslot.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/register.js"></script>
+        <script src="scripts/directives/nc-timeslot.js"></script>
+        <script src="scripts/directives/nc-favorite.js"></script>
+        <script src="scripts/directives/nc-project.js"></script>
+        <script src="scripts/directives/nc-period.js"></script>
+        <script src="scripts/directives/nc-dayhead.js"></script>
+        <script src="scripts/directives/nc-keydown.js"></script>
+        <script src="scripts/services/period.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

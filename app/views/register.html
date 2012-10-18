@@ -1,0 +1,27 @@
+<table class="table table-bordered table-hover">
+  <thead>
+  <tr>
+    <th colspan="2">
+      <nc-period caption="title"></nc-period>
+    </th>
+
+    <th ng-repeat="day in days">
+      <nc-dayhead day="day"></nc-dayhead>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="activity in activities">
+    <td>
+      <nc-favorite></nc-favorite>
+    </td>
+    <td>
+      <nc-project account="activity.accountNumber" project="activity.Name"></nc-project>
+    </td>
+
+    <td ng-repeat="timeslot in activity.timeslots">
+      <nc-timeslot timeslot="timeslot"></nc-timeslot>
+    </td>
+  </tr>
+  </tbody>
+</table>
