@@ -17,7 +17,6 @@ PeriodController.prototype.init = function(data){
   });
 
   this.mapActivities();
-              console.log(this.val('activities'));
   return {
     title       : this.val('title'),
     days        : this.val('days'),

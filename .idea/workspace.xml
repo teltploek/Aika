@@ -19,106 +19,98 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="nc-timeslot.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nc-keydown.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-keydown.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="10" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nc-dayhead.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-dayhead.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nc-period.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-period.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="12" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nc-project.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-project.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="10" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nc-favorite.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-favorite.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/register.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="9" selection-start="577" selection-end="577" vertical-scroll-proportion="-15.038462">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="64" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.76970446">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="period1.json" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/scripts/mocks/period1.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="30" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.27669346">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="nc-gridkey.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridkey.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="5" selection-start="93" selection-end="223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nc-gridfocus.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridfocus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="47" selection-start="183" selection-end="183" vertical-scroll-proportion="0.11710677">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nc-timeslot.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="46" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="26" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timeslot.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Timeslot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="34" selection-start="357" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nc-favorite.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-favorite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="47" selection-start="184" selection-end="184" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="64" selection-start="2689" selection-end="2689" vertical-scroll-proportion="-25.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Period.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Period.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="23" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -128,22 +120,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/directives/favorite.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/register.js" />
         <option value="$PROJECT_DIR$/app/scripts/businesslogic/Registration.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/project.js" />
-        <option value="$PROJECT_DIR$/app/scripts/businesslogic/Period.js" />
-        <option value="$PROJECT_DIR$/app/scripts/businesslogic/Timeslot.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/scripts/directives/timeslot.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/nc-favorite.js" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/nc-keydown.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/dayhead.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/period.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/nc-project.js" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js" />
         <option value="$PROJECT_DIR$/app/views/register.html" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/nc-keydown.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/businesslogic/Period.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/nc-gridkey.js" />
+        <option value="$PROJECT_DIR$/app/scripts/businesslogic/Timeslot.js" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/nc-gridfocus.js" />
       </list>
     </option>
   </component>
@@ -287,6 +279,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesslogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -397,20 +433,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="530" selection-end="530" vertical-scroll-proportion="0.23421355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Registration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="38" selection-start="73" selection-end="73" vertical-scroll-proportion="0.019976499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="8" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
@@ -425,38 +447,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Period.js">
+    <entry file="file://$PROJECT_DIR$/app/components/jquery/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="46" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Timeslot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="408" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-favorite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-keydown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -481,20 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="577" selection-end="577" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -504,7 +486,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="64" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.76970446">
+        <state line="59" column="64" selection-start="2689" selection-end="2689" vertical-scroll-proportion="-25.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Period.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridkey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="93" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-favorite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="47" selection-start="184" selection-end="184" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/businesslogic/Timeslot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="357" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-timeslot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridfocus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="183" selection-end="183" vertical-scroll-proportion="0.11710677">
           <folding />
         </state>
       </provider>

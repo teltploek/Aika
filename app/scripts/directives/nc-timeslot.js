@@ -2,7 +2,7 @@
 
 aikaApp.directive('ncTimeslot', function() {
   return {
-    template: '<div class="timeslot" ng-click="timeslot.toggleMode()" ng-class="{edit: timeslot.isEditMode}">{{timeslot.hours}}</div>',
+    template: '<div class="timeslot" ng-bind="timeslot.isSelected" ng-class="{selected: timeslot.isSelected}">{{timeslot.isSelected}}</div>',
     restrict: 'E',
     scope: {
       timeslot : '='

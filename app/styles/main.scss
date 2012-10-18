@@ -12,15 +12,16 @@
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 
-  background-color:salmon;
-
-
   &.edit, &.saved{
     -webkit-transform: rotateX( 180deg );
     -moz-transform: rotateX( 180deg );
     -ms-transform: rotateX( 180deg );
     -o-transform: rotateX( 180deg );
     transform: rotateX( 180deg );
+  }
+
+  &.selected{
+    border:3px solid #ccc;
   }
 
 }
