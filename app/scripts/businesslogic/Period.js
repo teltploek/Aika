@@ -4,6 +4,8 @@ function PeriodController(){
   this._duration = this.val('days').length;
   this._projects = [];
   this._activities = [];
+
+  this.timeslotGrid = [];
 };
 
 // Period initializer
@@ -17,21 +19,23 @@ PeriodController.prototype.init = function(data){
   });
 
   this.mapActivities();
+
   return {
-    title       : this.val('title'),
-    days        : this.val('days'),
-    duration    : this.val('duration'),
-    activities  : this.val('activities')
+    title         : this.val('title'),
+    days          : this.val('days'),
+    duration      : this.val('duration'),
+    activities    : this.val('activities'),
+    timeslotGrid  : this.timeslotGrid
   };
 };
 
 PeriodController.prototype.mapActivities = function(){
   var self = this,
-      projects = this.val('projects');
+      projects = this.val('projects' ),
+      activitesIdx = 0;
 
   angular.forEach(projects, function(project){
     var accounts = project.Accounts;
-
     angular.forEach(accounts, function(account){
       var accountNumber = account.AccountNumber,
           activities = account.Activities;
@@ -42,14 +46,22 @@ PeriodController.prototype.mapActivities = function(){
         activity.accountNumber = accountNumber;
         activity.timeslots = [];
 
+        self.timeslotGrid[activitesIdx] = [];
+
+        var datesIdx = 0;
         angular.forEach(dates, function(date){
-          activity.timeslots.push(new Timeslot(
-            date.Date, date.Hours, date.Locked, date.HighestRegistrationStatus
-          ));
+          var timeslot = new Timeslot( date.Date, date.Hours, date.Locked, date.HighestRegistrationStatus );
+
+          activity.timeslots.push(timeslot);
+
+          self.timeslotGrid[activitesIdx][datesIdx] = timeslot;
+
+          datesIdx++;
         });
 
         self._activities.push(activity);
 
+        activitesIdx++;
       })
     })
   })
