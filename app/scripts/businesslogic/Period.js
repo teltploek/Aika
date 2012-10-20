@@ -6,6 +6,10 @@ function PeriodController(){
   this._activities = [];
 
   this.timeslotGrid = [];
+  this.gridPos = {
+    x : 0,
+    y : 0
+  }
 };
 
 // Period initializer
@@ -25,7 +29,9 @@ PeriodController.prototype.init = function(data){
     days          : this.val('days'),
     duration      : this.val('duration'),
     activities    : this.val('activities'),
-    timeslotGrid  : this.timeslotGrid
+
+    timeslotGrid  : this.timeslotGrid,
+    gridPos       : this.gridPos
   };
 };
 

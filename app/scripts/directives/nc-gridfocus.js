@@ -6,7 +6,7 @@ aikaApp.directive('ncGridfocus', function() {
     link: function (scope, element, attrs) {
       jQuery(element).on('focus', function(e) {
         scope.$apply(function(){
-          scope.timeslotGrid[0][0].toggleSelection(true);
+          scope.timeslotGrid[scope.gridPos.y][scope.gridPos.x].toggleSelection(true);
         })
       });
     }

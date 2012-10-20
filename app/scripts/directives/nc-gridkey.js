@@ -54,8 +54,10 @@ aikaApp.directive('ncGridkey', function() {
         var keyCode = e.keyCode || e.which,
             keyMap = { end: 35, home: 36, left: 37, up: 38, right: 39, down: 40, shift: 16, ctrl: 17, enter: 13 },
             grid = scope.timeslotGrid,
-            selectedDepth = returnSelectedDepth(grid),
-            currentlySelected = grid[selectedDepth.yMax][selectedDepth.xMax];
+            gridPos = scope.gridPos,
+            selectedDepth = returnSelectedDepth(grid);
+
+        e.preventDefault();
 
         switch (keyCode) {
           case keyMap.shift:
@@ -77,18 +79,28 @@ aikaApp.directive('ncGridkey', function() {
           case keyMap.up:
             var previousOnAxis = grid[selectedDepth.yMin - 1] ? selectedDepth.yMin - 1 : selectedDepth.yMin; // find the point on the y-axis we should navigate to
 
-            yPos = yPos - 1 > -1 ? yPos - 1 : yPos;
-            console.log(yPos);
-
             scope.$apply(function(){
               if (!isShiftPressed){
                 var nextSelection = grid[previousOnAxis][selectedDepth.xMin];
+
+                scope.gridPos.y = previousOnAxis;
+
                 nextSelection.toggleSelection(true);
               }else{
-                if (yPos > previousOnAxis){
-                  grid[selectedDepth.yMax][selectedDepth.xMin].toggleSelection(false);
+                if (gridPos.y == selectedDepth.yMax && selectedDepth.yMax > selectedDepth.yMin){
+                  for (var x = selectedDepth.xMin; x < selectedDepth.xMax + 1; x++){
+                    grid[selectedDepth.yMax][x].toggleSelection(false);
+                  }
+
+                  scope.gridPos.y = scope.gridPos.y - 1;
                 }else{
-                  grid[previousOnAxis][selectedDepth.xMin].toggleSelection(false);
+                  if (previousOnAxis != selectedDepth.yMin){
+                    for (var x = selectedDepth.xMin; x < selectedDepth.xMax + 1; x++){
+                      grid[previousOnAxis][x].toggleSelection(false);
+                    }
+
+                    scope.gridPos.y = scope.gridPos.y - 1;
+                  }
                 }
               }
             });
@@ -98,13 +110,27 @@ aikaApp.directive('ncGridkey', function() {
             var nextOnAxis = grid[selectedDepth.yMax][selectedDepth.xMax + 1] ? selectedDepth.xMax + 1 : selectedDepth.xMax;
 
             scope.$apply(function(){
-              var nextSelection = grid[selectedDepth.yMax][nextOnAxis];
+              if (!isShiftPressed){
+                var nextSelection = grid[selectedDepth.yMax][nextOnAxis];
 
-              nextSelection.toggleSelection(isShiftPressed ? false : true);
+                scope.gridPos.x = nextOnAxis;
 
-              if (isShiftPressed){
-                for (var y = selectedDepth.yMin; y < selectedDepth.yMax; y++){
-                  grid[y][nextOnAxis].toggleSelection(false);
+                nextSelection.toggleSelection(isShiftPressed ? false : true);
+              }else{
+                if (gridPos.x == selectedDepth.xMin && selectedDepth.xMin < selectedDepth.xMax){
+                  for (var y = selectedDepth.yMin; y < selectedDepth.yMax + 1; y++){
+                    grid[y][selectedDepth.xMin].toggleSelection(false);
+                  }
+
+                  scope.gridPos.x = scope.gridPos.x + 1;
+                }else{
+                  if (nextOnAxis != selectedDepth.xMax){
+                    for (var y = selectedDepth.yMin; y < selectedDepth.yMax + 1; y++){
+                      grid[y][nextOnAxis].toggleSelection(false);
+                    }
+
+                    scope.gridPos.x = scope.gridPos.x + 1;
+                  }
                 }
               }
             });
@@ -113,27 +139,61 @@ aikaApp.directive('ncGridkey', function() {
           case keyMap.down:
             var nextOnAxis = grid[selectedDepth.yMax + 1] ? selectedDepth.yMax + 1 : selectedDepth.yMax;
 
-            yPos = grid[yPos + 1] > -1 ? yPos + 1 : yPos;
-            console.log(yPos);
-
             scope.$apply(function(){
-              var nextSelection = grid[nextOnAxis][selectedDepth.xMax];
+              if (!isShiftPressed){
+                var nextSelection = grid[nextOnAxis][selectedDepth.xMax];
 
-              nextSelection.toggleSelection(isShiftPressed ? false : true);
+                scope.gridPos.y = nextOnAxis;
 
-              if (isShiftPressed){
-                for (var x = selectedDepth.xMin; x < selectedDepth.xMax; x++){
-                  grid[nextOnAxis][x].toggleSelection(false)
+                nextSelection.toggleSelection(isShiftPressed ? false : true);
+              }else{
+                if (gridPos.y == selectedDepth.yMin && selectedDepth.yMin < selectedDepth.yMax){
+
+                  for (var x = selectedDepth.xMin; x < selectedDepth.xMax + 1; x++){
+                    grid[selectedDepth.yMin][x].toggleSelection(false);
+                  }
+
+                  scope.gridPos.y = scope.gridPos.y + 1;
+                }else{
+                  if (nextOnAxis != selectedDepth.yMax){
+                    for (var x = selectedDepth.xMin; x < selectedDepth.xMax + 1; x++){
+                      grid[nextOnAxis][x].toggleSelection(false);
+                    }
+
+                    scope.gridPos.y = scope.gridPos.y + 1;
+                  }
                 }
               };
             });
 
             break;
           case keyMap.left:
-            var nextSelection = grid[selectedDepth.yMax][selectedDepth.xMin - 1] || currentlySelected;
+            var previousOnAxis = grid[selectedDepth.xMin - 1] ? selectedDepth.xMin - 1 : selectedDepth.xMin; // find the point on the y-axis we should navigate to
 
             scope.$apply(function(){
-              nextSelection.toggleSelection(true);
+              if (!isShiftPressed){
+                var nextSelection = grid[selectedDepth.yMax][previousOnAxis];
+
+                scope.gridPos.x = previousOnAxis;
+
+                nextSelection.toggleSelection(true);
+              }else{
+                if (gridPos.x == selectedDepth.xMax && selectedDepth.xMax > selectedDepth.xMin){
+                  for (var y = selectedDepth.yMin; y < selectedDepth.yMax + 1; y++){
+                    grid[y][selectedDepth.xMax].toggleSelection(false);
+                  }
+
+                  scope.gridPos.x = scope.gridPos.x - 1;
+                }else{
+                  if (previousOnAxis != selectedDepth.xMin){
+                    for (var y = selectedDepth.yMin; y < selectedDepth.yMax + 1; y++){
+                      grid[y][previousOnAxis].toggleSelection(false);
+                    }
+
+                    scope.gridPos.x = scope.gridPos.x - 1;
+                  }
+                }
+              }
             });
 
             break;
