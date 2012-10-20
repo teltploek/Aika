@@ -23,9 +23,9 @@
       <file leaf-file-name="nc-gridkey.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridkey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="111" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.66819745">
+            <state line="87" column="36" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.33754304">
               <folding>
-                <marker date="1350721404378" expanded="true" signature="5954:5971" placeholder="..." />
+                <marker date="1350722610750" expanded="true" signature="6071:6088" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -466,9 +466,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/nc-gridkey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="111" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.66819745">
+        <state line="87" column="36" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.33754304">
           <folding>
-            <marker date="1350721404378" expanded="true" signature="5954:5971" placeholder="..." />
+            <marker date="1350722610750" expanded="true" signature="6071:6088" placeholder="..." />
           </folding>
         </state>
       </provider>

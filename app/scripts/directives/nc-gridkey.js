@@ -52,12 +52,18 @@ aikaApp.directive('ncGridkey', function() {
 
       jQuery(element).on('keydown', function(e) {
         var keyCode = e.keyCode || e.which,
-            keyMap = { end: 35, home: 36, left: 37, up: 38, right: 39, down: 40, shift: 16, ctrl: 17, enter: 13 },
+            keyMap = { end: 35, home: 36, left: 37, up: 38, right: 39, down: 40, shift: 16, ctrl: 17, enter: 13, tab: 9 },
             grid = scope.timeslotGrid,
             gridPos = scope.gridPos,
-            selectedDepth = returnSelectedDepth(grid);
+            selectedDepth = returnSelectedDepth(grid ),
+            markingMode = isShiftPressed;
 
         e.preventDefault();
+
+        if (keyCode == keyMap.tab){
+          keyCode = isShiftPressed ? 37 : 39;
+          markingMode = false;
+        };
 
         switch (keyCode) {
           case keyMap.shift:
@@ -80,7 +86,7 @@ aikaApp.directive('ncGridkey', function() {
             var previousOnAxis = grid[selectedDepth.yMin - 1] ? selectedDepth.yMin - 1 : selectedDepth.yMin; // find the point on the y-axis we should navigate to
 
             scope.$apply(function(){
-              if (!isShiftPressed){
+              if (!markingMode){
                 var nextSelection = grid[previousOnAxis][selectedDepth.xMin];
 
                 scope.gridPos.y = previousOnAxis;
@@ -110,12 +116,12 @@ aikaApp.directive('ncGridkey', function() {
             var nextOnAxis = grid[selectedDepth.yMax][selectedDepth.xMax + 1] ? selectedDepth.xMax + 1 : selectedDepth.xMax;
 
             scope.$apply(function(){
-              if (!isShiftPressed){
+              if (!markingMode){
                 var nextSelection = grid[selectedDepth.yMax][nextOnAxis];
 
                 scope.gridPos.x = nextOnAxis;
 
-                nextSelection.toggleSelection(isShiftPressed ? false : true);
+                nextSelection.toggleSelection(true);
               }else{
                 if (gridPos.x == selectedDepth.xMin && selectedDepth.xMin < selectedDepth.xMax){
                   for (var y = selectedDepth.yMin; y < selectedDepth.yMax + 1; y++){
@@ -140,12 +146,12 @@ aikaApp.directive('ncGridkey', function() {
             var nextOnAxis = grid[selectedDepth.yMax + 1] ? selectedDepth.yMax + 1 : selectedDepth.yMax;
 
             scope.$apply(function(){
-              if (!isShiftPressed){
+              if (!markingMode){
                 var nextSelection = grid[nextOnAxis][selectedDepth.xMax];
 
                 scope.gridPos.y = nextOnAxis;
 
-                nextSelection.toggleSelection(isShiftPressed ? false : true);
+                nextSelection.toggleSelection(true);
               }else{
                 if (gridPos.y == selectedDepth.yMin && selectedDepth.yMin < selectedDepth.yMax){
 
@@ -171,7 +177,7 @@ aikaApp.directive('ncGridkey', function() {
             var previousOnAxis = grid[selectedDepth.xMin - 1] ? selectedDepth.xMin - 1 : selectedDepth.xMin; // find the point on the y-axis we should navigate to
 
             scope.$apply(function(){
-              if (!isShiftPressed){
+              if (!markingMode){
                 var nextSelection = grid[selectedDepth.yMax][previousOnAxis];
 
                 scope.gridPos.x = previousOnAxis;
